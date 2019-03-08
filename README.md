@@ -2,7 +2,14 @@
 
 Projeto laravel para estudo da criação de uma API REST utilizando a tecnologia JWT para autenticação de usuários.
 
-## Instalação
+
+## Recursos utilizados:
+- lib JWT-Auth https://jwt-auth.readthedocs.io/en/develop/
+ - login, logout e refresh token
+ - Tempo de expiração do token
+ - Middleware para somente usuários autenticados pelo JWT token
+
+## Instalação:
 - Clone o repositório;
 - Execute o comando composer install;
 - Execute o comendo php artisan key:generate
